@@ -28,10 +28,6 @@ struct GenerativeAIService {
   func loadRequest<T: GenerativeAIRequest>(request: T) async throws -> T.Response {
     let urlRequest = try urlRequest(request: request)
 
-    #if DEBUG
-      printCURLCommand(from: urlRequest)
-    #endif
-
     let data: Data
     let rawResponse: URLResponse
     (data, rawResponse) = try await urlSession.data(for: urlRequest)
@@ -40,11 +36,6 @@ struct GenerativeAIService {
 
     // Verify the status code is 200
     guard response.statusCode == 200 else {
-      //Logging.default.error("[GoogleGenerativeAI] The server responded with an error: \(response)")
-      if let responseString = String(data: data, encoding: .utf8) {
-        //Logging.network.error("[GoogleGenerativeAI] Response payload: \(responseString)")
-      }
-
       throw try JSONDecoder().decode(RPCError.self, from: data)
     }
 
@@ -62,10 +53,6 @@ struct GenerativeAIService {
           continuation.finish(throwing: error)
           return
         }
-
-        #if DEBUG
-          printCURLCommand(from: urlRequest)
-        #endif
 
         let stream: URLSession.AsyncBytes
         let rawResponse: URLResponse
@@ -213,10 +200,6 @@ struct GenerativeAIService {
     do {
       return try JSONDecoder().decode(type, from: data)
     } catch {
-      if let json = String(data: data, encoding: .utf8) {
-        //Logging.network.error("[GoogleGenerativeAI] JSON response: \(json)")
-      }
-      //Logging.default.error("[GoogleGenerativeAI] Error decoding server JSON: \(error)")
       throw error
     }
   }
@@ -241,14 +224,5 @@ struct GenerativeAIService {
       return returnValue
     }
 
-    private func printCURLCommand(from request: URLRequest) {
-      let command = cURLCommand(from: request)
-//      Logging.verbose.debug("""
-//      [GoogleGenerativeAI] Creating request with the equivalent cURL command:
-//      ----- cURL command -----
-//      \(command, privacy: .private)
-//      ------------------------
-//      """)
-    }
   #endif // DEBUG
 }

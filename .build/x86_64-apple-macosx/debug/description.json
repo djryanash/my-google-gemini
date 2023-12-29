@@ -1,0 +1,923 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swiftPackageTests.xctest/Contents/MacOS/generative-ai-swiftPackageTests",
+      "productName" : "generative-ai-swiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/failure-model-not-found.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/CountTokenResponses/failure-model-not-found.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/failure-model-not-found.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-empty-content.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-empty-content.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-empty-content.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-error-mid-stream.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-error-mid-stream.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-error-mid-stream.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-finish-reason-safety.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-finish-reason-safety.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-finish-reason-safety.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-invalid-json.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-invalid-json.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-invalid-json.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-malformed-content.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-malformed-content.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-malformed-content.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-prompt-blocked-safety.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-prompt-blocked-safety.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-prompt-blocked-safety.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-recitation-no-content.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-recitation-no-content.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-recitation-no-content.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-unknown-finish-enum.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-failure-unknown-finish-enum.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-failure-unknown-finish-enum.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-basic-reply-long.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-success-basic-reply-long.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-basic-reply-long.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-basic-reply-short.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-success-basic-reply-short.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-basic-reply-short.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-citations.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-success-citations.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-citations.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-unknown-safety-enum.txt" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/streaming-success-unknown-safety-enum.txt"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/streaming-success-unknown-safety-enum.txt"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/success-total-tokens.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/CountTokenResponses/success-total-tokens.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/success-total-tokens.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-api-key.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-api-key.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-api-key.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-empty-content.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-empty-content.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-empty-content.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-finish-reason-safety-no-content.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-finish-reason-safety-no-content.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-finish-reason-safety-no-content.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-finish-reason-safety.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-finish-reason-safety.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-finish-reason-safety.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-image-rejected.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-image-rejected.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-image-rejected.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-invalid-response.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-invalid-response.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-invalid-response.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-malformed-content.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-malformed-content.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-malformed-content.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-prompt-blocked-safety.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-prompt-blocked-safety.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-prompt-blocked-safety.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-unknown-enum-finish-reason.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-unknown-enum-finish-reason.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-unknown-enum-finish-reason.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-unknown-enum-prompt-blocked.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-unknown-enum-prompt-blocked.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-unknown-enum-prompt-blocked.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-unknown-model.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-failure-unknown-model.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-failure-unknown-model.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-basic-reply-long.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-success-basic-reply-long.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-basic-reply-long.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-basic-reply-short.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-success-basic-reply-short.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-basic-reply-short.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-citations.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-success-citations.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-citations.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-missing-safety-ratings.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-success-missing-safety-ratings.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-missing-safety-ratings.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-quote-reply.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-success-quote-reply.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-quote-reply.json"
+        }
+      ]
+    },
+    "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-unknown-enum-safety-ratings.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerateContentResponses/unary-success-unknown-enum-safety-ratings.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/generative-ai-swift_GoogleGenerativeAITests.bundle/unary-success-unknown-enum-safety-ratings.json"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GoogleGenerativeAI-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Chat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/CountTokensRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Errors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerationConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAIRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAISwift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/ModelContent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/PartsRepresentable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Safety.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoogleGenerativeAI",
+      "moduleOutputPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.swiftmodule",
+      "objects" : [
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/Chat.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/CountTokensRequest.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/Errors.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerateContentError.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerateContentRequest.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerateContentResponse.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerationConfig.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeAIRequest.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeAIService.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeAISwift.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeModel.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/ModelContent.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/PartsRepresentable.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/Safety.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx12.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleGenerativeAI-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "generative_ai_swift"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/Chat.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/CountTokensRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/Errors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerateContentError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerateContentRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerateContentResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerationConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeAIRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeAIService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeAISwift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/GenerativeModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/ModelContent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/PartsRepresentable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleAI/Safety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Chat.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/CountTokensRequest.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Errors.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentError.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentRequest.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentResponse.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerationConfig.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAIRequest.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAIService.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAISwift.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeModel.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/ModelContent.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/PartsRepresentable.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Safety.swift"
+      ],
+      "tempsPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoogleGenerativeAITests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/ChatTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerativeModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GoogleAITests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/MockURLProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<GoogleGenerativeAITests-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoogleGenerativeAITests",
+      "moduleOutputPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.swiftmodule",
+      "objects" : [
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/ChatTests.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/GenerativeModelTests.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/GoogleAITests.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/MockURLProtocol.swift.o",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "generative_ai_swift"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/ChatTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/GenerativeModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/GoogleAITests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/GoogleAITests/MockURLProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/ChatTests.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerativeModelTests.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GoogleAITests.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/MockURLProtocol.swift",
+        "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GoogleGenerativeAI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoogleGenerativeAI",
+      "-package-name",
+      "generative_ai_swift",
+      "-incremental",
+      "-c",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Chat.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/CountTokensRequest.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Errors.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentError.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentRequest.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerateContentResponse.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerationConfig.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAIRequest.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAIService.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeAISwift.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/GenerativeModel.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/ModelContent.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/PartsRepresentable.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Sources/GoogleAI/Safety.swift",
+      "-I",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug",
+      "-target",
+      "x86_64-apple-macosx12.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleGenerativeAI-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "generative_ai_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GoogleGenerativeAITests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoogleGenerativeAITests",
+      "-package-name",
+      "generative_ai_swift",
+      "-incremental",
+      "-c",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/ChatTests.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GenerativeModelTests.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/GoogleAITests.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/Tests/GoogleAITests/MockURLProtocol.swift",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAITests.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug",
+      "-target",
+      "x86_64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "generative_ai_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "GoogleGenerativeAI" : [
+
+    ],
+    "GoogleGenerativeAITests" : [
+      "GoogleGenerativeAI"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}

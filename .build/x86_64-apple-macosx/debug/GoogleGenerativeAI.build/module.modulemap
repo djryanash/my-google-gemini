@@ -1,0 +1,4 @@
+module GoogleGenerativeAI {
+    header "/Users/ryanashton/Documents/Vapor Projects/well-spotted-backend/generative-ai-swift/.build/x86_64-apple-macosx/debug/GoogleGenerativeAI.build/GoogleGenerativeAI-Swift.h"
+    requires objc
+}
