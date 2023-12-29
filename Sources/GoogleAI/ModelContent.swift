@@ -13,6 +13,9 @@
 // limitations under the License.
 
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 /// A type describing data in media formats interpretable by an AI model. Each generative AI
 /// request or response contains an `Array` of ``ModelContent``s, and each ``ModelContent`` value

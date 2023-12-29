@@ -13,6 +13,9 @@
 // limitations under the License.
 
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 struct CountTokensRequest {
   let model: String

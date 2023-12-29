@@ -12,6 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 #if !os(macOS) && !os(iOS)
   #warning("Only iOS, macOS, and Catalyst targets are currently fully supported.")

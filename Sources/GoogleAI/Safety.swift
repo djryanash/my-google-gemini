@@ -13,6 +13,9 @@
 // limitations under the License.
 
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 /// A type defining potentially harmful media categories and their model-assigned ratings. A value
 /// of this type may be assigned to a category for every model-generated response, not just

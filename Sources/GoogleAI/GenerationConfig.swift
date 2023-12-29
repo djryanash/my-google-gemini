@@ -13,6 +13,9 @@
 // limitations under the License.
 
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 /// A struct defining model parameters to be used when sending generative AI
 /// requests to the backend model.

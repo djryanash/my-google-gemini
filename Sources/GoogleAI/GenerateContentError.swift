@@ -13,6 +13,9 @@
 // limitations under the License.
 
 import Foundation
+#if os(Linux)
+import FoundationNetworking
+#endif
 
 /// Errors that occur when generating content from a model.
 public enum GenerateContentError: Error {
